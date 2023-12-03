@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-class NumberComparison;
-
 class NumberComparison {
 private:
     int num1;
