@@ -16,7 +16,7 @@ void calculateAreaPerimeter(double side) {
     cout << "Square - Area: " << area << ", Perimeter: " << perimeter << endl;
 }
 
-void calculateAreaPerimeter(double radius) {
+void calculateAreaPerimeter(double radius, int x) {
     double area = PI * pow(radius, 2);
     double perimeter = 2 * PI * radius;
     cout << "Circle - Area: " << area << ", Circumference: " << perimeter << endl;
@@ -29,6 +29,6 @@ int main() {
     double squareSide = 5.0;
     calculateAreaPerimeter(squareSide);
     double circleRadius = 3.0;
-    calculateAreaPerimeter(circleRadius);
+    calculateAreaPerimeter(circleRadius, 3);
     return 0;
 }
